@@ -11,6 +11,7 @@ const PORT = process.env.PORT
 
 app.use("/api/auth", authRoutes)
 app.listen(PORT, () => {
-  console.log("Server is running on PORT:", PORT);
+  console.log("Server running on PORT:", PORT);
   connectDB()
 });
+f
